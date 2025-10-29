@@ -4,6 +4,12 @@
 
 ### Быстрый старт
 
+**Клонирование:**
+```bash
+git clone https://github.com/<your-org>/AutoTests_EffectiveMobile.git
+cd AutoTests_EffectiveMobile
+```
+
 **Установка:**
 ```bash
 pip install -r requirements.txt
@@ -36,6 +42,12 @@ pytest -m ui --html=report.html --self-contained-html
 ### Запуск
 
 **Локально:**
+
+Если ещё не клонировали репозиторий:
+```bash
+git clone https://github.com/<your-org>/AutoTests_EffectiveMobile.git
+cd AutoTests_EffectiveMobile
+```
 
 Переопределить базовый URL (по умолчанию `https://effective-mobile.ru/`):
 ```bash
