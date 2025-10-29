@@ -6,7 +6,7 @@
 
 **Клонирование:**
 ```bash
-git clone https://github.com/<your-org>/AutoTests_EffectiveMobile.git
+git clone https://github.com/DmitriyKuladmed/AutoTests_EffectiveMobile.git
 cd AutoTests_EffectiveMobile
 ```
 
@@ -45,7 +45,7 @@ pytest -m ui --html=report.html --self-contained-html
 
 Если ещё не клонировали репозиторий:
 ```bash
-git clone https://github.com/<your-org>/AutoTests_EffectiveMobile.git
+git clone https://github.com/DmitriyKuladmed/AutoTests_EffectiveMobile.git
 cd AutoTests_EffectiveMobile
 ```
 
