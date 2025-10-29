@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  ui-tests:
+    build: .
+    environment:
+      - BASE_URL=${BASE_URL:-https://effective-mobile.ru/}
+      - OPEN_REPORT=0
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: >-
+      pytest -m ui --html=report.html --self-contained-html -q
+
